@@ -8,7 +8,21 @@
 
 body {
     font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
 }
 /* fonts 
 for paragraphs: font-family: 'Nunito', sans-serif;
 for headings: font-family: 'Ubuntu', sans-serif; */
+
+h1, h2 {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+}
