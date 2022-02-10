@@ -34,10 +34,27 @@ h1, h2 {
     letter-spacing: 4px; /* 4px to keep consistent with logos and headings*/
 }
 
+#nav-menu, #logo {
+    line-height: 75px; /*horizontally balance the design of the logo and nav menu items" */
+}
+
 #nav-menu li {
     float: right; /*float listed menu items to the top right corner*/ /* causes reverse order, see 'ffwing notes' */
     list-style-type: none; /*get rid of bullet points*/
     margin-right: 30px; /*give each link item some space*/
     /*ffwing note: display: flex;  listed items in display order to avoid this using this as per point in html file
     flex-direction: row-reverse; */
+}
+
+#nav-menu a { /*style nav items to remove underline and also inherit the font colour of body element*/
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-menu a:hover {
+    border-bottom: 1px solid #3a3a3a; /* provide user with visual clues to what link they are about to clickk on */
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a; /* visual clue for user to know the page they are currently on */ 
 }
