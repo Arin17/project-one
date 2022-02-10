@@ -26,3 +26,18 @@ h1, h2 {
     float: left;
     font-size: 280%;
 }
+
+/* navigation links */
+
+#nav-menu {
+    font-size: 110%; /*to standout on header*/
+    letter-spacing: 4px; /* 4px to keep consistent with logos and headings*/
+}
+
+#nav-menu li {
+    float: right; /*float listed menu items to the top right corner*/ /* causes reverse order, see 'ffwing notes' */
+    list-style-type: none; /*get rid of bullet points*/
+    margin-right: 30px; /*give each link item some space*/
+    /*ffwing note: display: flex;  listed items in display order to avoid this using this as per point in html file
+    flex-direction: row-reverse; */
+}
