@@ -15,6 +15,7 @@ body {
 for paragraphs: font-family: 'Nunito', sans-serif;
 for headings: font-family: 'Ubuntu', sans-serif; */
 
+/*headings and logo*/
 h1, h2 {
     font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
@@ -57,4 +58,11 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid #3a3a3a; /* visual clue for user to know the page they are currently on */ 
+}
+
+/*hero image*/
+#hero-img {
+    height: 600px; /*need the img to be full-sized on the pg, height of img is 2000px */
+    width: 100%;
+    background: url("../images/hero-img.jpg") no-repeat center center;
 }
