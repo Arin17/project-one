@@ -61,8 +61,32 @@ h1, h2 {
 }
 
 /*hero image*/
+
+#hero-outer { /* creates space btw header and hero img*/
+    height: 600px;
+    width: 100%;
+    overflow: hidden; /* hides the size increase whilst doing zoom animation */
+}
+
 #hero-img {
-    height: 600px; /*need the img to be full-sized on the pg, height of img is 2000px */
+    height: 600px; /* need the img to be full-sized on the pg, height of img is 2000px --maybe or not */
     width: 100%;
     background: url("../images/hero-img.jpg") no-repeat center center;
+    
+    /* runs animation effect when hero-img style rule is applied, i.e. upon browser rendering page*/
+    animation-name: hero-zoom; /* animation name = value of animation name property */
+    animation-duration: 180s; /* take 3mins for image to scale up by 500% */
+    animation-fill-mode: forwards; /* retain state of animation at last keyframe which is 500%, 
+    hence animation zooms in and stays there at that size*/
+}
+
+/* create level of zoom animation for hero img*/
+@keyframes hero-zoom {
+    from { /* initial state of animation */
+        transform: scale(1); /* set image to 100% of normal size*/
+
+    }
+    to { /* final state of animation */
+        transform: scale(5); /* set image to 500% of original size, giving it a 500% increase*/
+    }
 }
