@@ -60,12 +60,17 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a; /* visual clue for user to know the page they are currently on */ 
 }
 
-/*hero image*/
+/* hero image and cover text */
 
 #hero-outer { /* creates space btw header and hero img*/
     height: 600px;
     width: 100%;
     overflow: hidden; /* hides the size increase whilst doing zoom animation */
+    position: relative; /* keeps cover text div position absolute */
+}
+
+#cover-text, #cover-text h2 {
+    color: rgb(28, 12, 167);
 }
 
 #hero-img {
@@ -75,8 +80,8 @@ h1, h2 {
     
     /* runs animation effect when hero-img style rule is applied, i.e. upon browser rendering page*/
     animation-name: hero-zoom; /* animation name = value of animation name property */
-    animation-duration: 180s; /* take 3mins for image to scale up by 500% */
-    animation-fill-mode: forwards; /* retain state of animation at last keyframe which is 500%, 
+    animation-duration: 10s; /* take 3mins for image to scale up by 12% */
+    animation-fill-mode: forwards; /* retain state of animation at last keyframe which is 112%, 
     hence animation zooms in and stays there at that size*/
 }
 
@@ -87,6 +92,27 @@ h1, h2 {
 
     }
     to { /* final state of animation */
-        transform: scale(5); /* set image to 500% of original size, giving it a 500% increase*/
+        transform: scale(1.12); /* set image to 112% of original size, giving it a 12% increase*/
     }
+}
+
+#cover-text {
+    font-size: 50%;
+    font-family: 'Ubuntu', sans-serif; /* consistent with overall heading font */
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 40px;
+
+    padding-top: 20px;
+    padding-left: 10px;
+
+    background-color: rgba(131, 175, 241, 0.205); /* opacity value assigned to allow hero image to seep through */
+
+    /* fixed position relative to parent container */
+    bottom: 20px; 
+    right: 150px;
+
+    position: absolute; /* to fix it in place relative to the container */
 }
