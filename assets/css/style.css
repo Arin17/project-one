@@ -123,23 +123,33 @@ h1, h2 {
     height: 600px; /* consistent with hero img */
 }
 
+#about h1 {
+    text-align: center;
+}
+
 #left-tab {
     padding-top: 30px;
-    width: 33%;
+    width: 50%;
     float: left;
-    background-color: blue;
+    background-color: lightblue;
 }
 
 #right-tab {
     padding-top: 30px;
-    width: 33%;
+    width: 50%;
     float: right;
     background-color: silver;
 }
 
+/*
 #center-tab {
     padding-top: 30px;
     width: 33%;
-    margin: 0 auto; /* to center the div */
+    margin: 0 auto; /* to center the div 
     background-color: green;
+} */
+
+/* unordered list */
+ul {
+    list-style-type: none;
 }
