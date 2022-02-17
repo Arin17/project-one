@@ -10,6 +10,7 @@ body {
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+   /* list-style-type: none; /* get rid of bullet points, apply globally, didn't work */
 }
 /* fonts 
 for paragraphs: font-family: 'Nunito', sans-serif;
@@ -123,19 +124,21 @@ h1, h2 {
     height: 600px; /* consistent with hero img */
 }
 
-#about h1 {
+#living {
     text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
 }
 
 #left-tab {
-    padding-top: 30px;
+    padding-top: 10px;
     width: 50%;
     float: left;
     background-color: lightblue;
 }
 
 #right-tab {
-    padding-top: 30px;
+    padding-top: 10px;
     width: 50%;
     float: right;
     background-color: silver;
@@ -151,7 +154,7 @@ h1, h2 {
 
 /* unordered list */
 ul {
-    list-style-type: none;
+    list-style-type: none; /* move this to body selector */
 }
 
 /*below seems to mess up layout
@@ -191,3 +194,17 @@ ul {
     border: 1px solid #ccc;
     border-top: none;
   }  */
+
+  .left-tabcontent {
+      width: 60%;
+      /*float: right; */
+      margin-left: 30px; /* use this instead of float right in the snippet cos img should cover text when not in focus */
+      line-height: 20px;
+  }
+
+  .right-tabcontent {
+    width: 70%; /* 70% so can accomodate the heading text */
+    /*float: left; */
+    margin-left: 30px; /* use this instead of float right in the snippet cos img should cover text when not in focus */
+    line-height: 20px;
+}
