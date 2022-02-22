@@ -76,7 +76,7 @@ h1, h2 {
 }
 
 #hero-img {
-    height: 600px; /* need the img to be full-sized on the pg, height of img is 2000px --maybe or not */
+    height: 600px; /* think I need the img to be full-sized on the pg, height of img is 2000px --maybe or not */
     width: 100%;
     background: url("../images/hero-img.jpg") no-repeat center center;
     
@@ -130,6 +130,7 @@ h1, h2 {
     font-size: 280%;
 }
 
+/* using tabbed layout, this is for the container div 
 #left-tab {
     padding-top: 10px;
     width: 50%;
@@ -142,7 +143,7 @@ h1, h2 {
     width: 50%;
     float: right;
     background-color: silver;
-}
+}  */
 
 /*
 #center-tab {
@@ -154,7 +155,7 @@ h1, h2 {
 
 /* unordered list */
 ul {
-    list-style-type: none; /* move this to body selector */
+    list-style-type: none; /* move this to body selector, did but not globally applied */
 }
 
 /*below seems to mess up layout
@@ -195,16 +196,51 @@ ul {
     border-top: none;
   }  */
 
+  /* using tabbed layout, this is for the content div, as above as per container div
+
   .left-tabcontent {
       width: 60%;
-      /*float: right; */
-      margin-left: 30px; /* use this instead of float right in the snippet cos img should cover text when not in focus */
+      /*float: right; 
+      margin-left: 30px; /* use this instead of float right in the snippet cos img should cover text when not in focus 
       line-height: 20px;
   }
 
   .right-tabcontent {
-    width: 70%; /* 70% so can accomodate the heading text */
-    /*float: left; */
-    margin-left: 30px; /* use this instead of float right in the snippet cos img should cover text when not in focus */
+    width: 70%; /* 70% so can accomodate the heading text
+    /*float: left; 
+    margin-left: 30px; /* use this instead of float right in the snippet cos img should cover text when not in focus 
     line-height: 20px;
+}   */
+
+/* Style the left button that are used to open and close the accordion panel, if splitting horizontally */
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+  #sun-plant {
+    height: fit-content; /* think I need the img to be full-sized on the pg, height of img is 2000px --maybe or not */
+    /*width: 20%; */
+    background: url("../images/sun-plant.jpg") no-repeat center center;
 }
