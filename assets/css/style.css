@@ -158,6 +158,11 @@ ul {
     list-style-type: none; /* move this to body selector, did but not globally applied */
 }
 
+/* horizontal line under heading, need to alighn with text tried span
+hr {
+    border: 1px solid #3a3a3a;
+}  */
+
 /*below seems to mess up layout
 /* style buttons and tab content, code from W3Schoools
 /* Style the tab
@@ -219,26 +224,27 @@ ul {
     color: #444;
     cursor: pointer;
     padding: 18px;
-    width: 100%;
-    text-align: left;
+    width: 50%;
     border: none;
+    text-align: left;
     outline: none;
+    font-size: 15px;
     transition: 0.4s;
   }
   
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .accordion:hover {
-    background-color: #ccc;
+    background-color: #ccc; 
   }
   
-  /* Style the accordion panel. Note: hidden by default */
   .panel {
     padding: 0 18px;
-    background-color: white;
     display: none;
+    background-color: white;
     overflow: hidden;
+    width: 45%;
   }
 
+  /* img not loading */
   #sun-plant {
     height: fit-content; /* think I need the img to be full-sized on the pg, height of img is 2000px --maybe or not */
     /*width: 20%; */

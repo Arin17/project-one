@@ -8,31 +8,7 @@
     <meta name="keywords" content="Mind, mindfulness, wellbeing, relaxation, Dublin, Ireland">
 
     <link rel="stylesheet" href="assets/css/style.css">
-<!--
-    <!-- script code from W3Schools
-    <script>
-        function openCity(evt, cityName) {
-        // Declare all variables
-        var i, tabcontent, tablinks;
 
-        // Get all elements with class="tabcontent" and hide them
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-        }
-
-        // Get all elements with class="tablinks" and remove the class "active"
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-
-        // Show the current tab, and add an "active" class to the button that opened the tab
-        document.getElementById(cityName).style.display = "block";
-        evt.currentTarget.className += " active";
-        }
-        </script>
--->
     <title>Mindfulness and Wellbeing</title>
 </head>
 <body>
@@ -70,121 +46,45 @@
             <h3>Live in the now</h3>
         </div>
     </section>
+
     <section id="about">
-        <h2 id="living">Living in the moment</h2>
-        
-        <!-- for tabbed layout
-
-        <div id="right-tab" class="tab">
-          <!--  <button class="tablinks" onclick="openAbout(event, 'prin')"><h2>Principles</h2></button> 
-        
-        <!-- Tab content 
-        <div id="prin" class="right-tabcontent">
-           
-        <h2>Foundations of Mindfulness</h2>
-        <br>
-        <ul>         
-            <li>Mindfulness of the body.</li>
+        <h2 id="living">Living in the moment</h2>        
+        <div id="what-is">
+            <h3>What is Mindfulness</h3>
+            <hr>
+            <p>Mindfulness is a type of meditation in which you focus on being intensely aware of what you're sensing and 
+                feeling in the moment, without interpretation or judgment. Practicing mindfulness involves breathing methods, 
+                guided imagery, and other practices to relax the body and mind and help reduce stress.
+            </p>
             <br>
-            <li>Mindfulness of feelings.</li> 
-            <br>
-            <li>Mindfulness of mind.</li>            
-            <br>
-        </ul>
-        </div>
+            <p>Spending too much time planning, problem-solving, daydreaming, or thinking negative or random thoughts 
+                can be draining. It can also make you more likely to experience stress, anxiety and symptoms of depression.  
+                Practicing mindfulness exercises can help you direct your attention away from this kind of thinking and engage 
+                with the world around you.
+            </p>
         </div>
         
-        <!-- <div id="center-tab">Center</div>  might not need this --> 
-        <!-- Tabulated principles, showing tab headings in tabs
-        (Tabs: bkgrd | pillars) -->  <!-- use leaves to create swoosh effect as feedback to user after clicking on a tab -->
-        <!-- or may just hide the div without focus where plant img shows instead 
-            and for responsiveness divs will display vertically tiled for smaller screens -->
-
-        <!-- Tab links 
-        <div id="left-tab" class="tab">
-           <!-- <button class="tablinks" onclick="openAbout(event, 'bkgrd')"><h2>Background</h2></button>-->
-        <!-- Tab content 
-        <div id="bkgrd" class="left-tabcontent">
-        
-        <h2>What is Mindfulness</h2>   
-        <br>   
-        <p>Mindfulness is a type of meditation in which you focus on being intensely aware of what you're sensing and 
-            feeling in the moment, without interpretation or judgment. Practicing mindfulness involves breathing methods, 
-            guided imagery, and other practices to relax the body and mind and help reduce stress.
-        </p>
-        <br>
-        <p>Spending too much time planning, problem-solving, daydreaming, or thinking negative or random thoughts 
-            can be draining. It can also make you more likely to experience stress, anxiety and symptoms of depression.  
-            Practicing mindfulness exercises can help you direct your attention away from this kind of thinking and engage 
-            with the world around you.
-        </p>
-        <br>
+        <div id="foundation">
+            <h3>Foundations of Mindfulness</h3>
+            <hr>
+            <ul>
+                <li>Mindfulness of the body.</li>
+                <br>
+                <li>Mindfulness of feelings.</li> 
+                <br>
+                <li>Mindfulness of mind.</li>            
+                <br>
+            </ul>
         </div>
-        </div>  -->
-
-
-
-
-
-
-
-        <button class="accordion">What is Mindfulness</button>
-<div class="panel">
-    <p>Mindfulness is a type of meditation in which you focus on being intensely aware of what you're sensing and 
-        feeling in the moment, without interpretation or judgment. Practicing mindfulness involves breathing methods, 
-        guided imagery, and other practices to relax the body and mind and help reduce stress.
-    </p>
-    <br>
-    <p>Spending too much time planning, problem-solving, daydreaming, or thinking negative or random thoughts 
-        can be draining. It can also make you more likely to experience stress, anxiety and symptoms of depression.  
-        Practicing mindfulness exercises can help you direct your attention away from this kind of thinking and engage 
-        with the world around you.
-    </p>
-</div>
-
-<button class="accordion">Foundations of Mindfulness</button>
-<div class="panel">
-    <ul>         
-        <li>Mindfulness of the body.</li>
-        <br>
-        <li>Mindfulness of feelings.</li> 
-        <br>
-        <li>Mindfulness of mind.</li>            
-        <br>
-    </ul>
-</div>
-
-       
-
-
 
     </section>
     <section>
         Book a session, via session locations/sanctuary
     </section>
+    
     <footer>
         Social media links
     </footer>
-
-
-
-    <!-- js from w3 -->
-    <script>
-        var acc = document.getElementsByClassName("accordion");
-        var i;
-        
-        for (i = 0; i < acc.length; i++) {
-          acc[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
-            if (panel.style.maxHeight) {
-              panel.style.maxHeight = null;
-            } else {
-              panel.style.maxHeight = panel.scrollHeight + "px";
-            } 
-          });
-        }
-        </script>
         
 </body>
 </html>
