@@ -122,12 +122,18 @@ h1, h2 {
 /* about section */
 #about {
     height: 600px; /* consistent with hero img */
+    text-align: center;
 }
 
 #living {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
+}
+
+#what-is {
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 /* using tabbed layout, this is for the container div 
