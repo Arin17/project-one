@@ -134,6 +134,13 @@ h1, h2 {
 #what-is {
     margin-left: 250px;
     margin-right: 250px;
+    margin-bottom: 50px;
+}
+
+#foundation {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
 }
 
 /* using tabbed layout, this is for the container div 
@@ -167,6 +174,7 @@ ul {
 /* horizontal line under heading, need to alighn with text tried span
 hr {
     border: 1px solid #3a3a3a;
+    width: 50%
 }  */
 
 /*below seems to mess up layout
