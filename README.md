@@ -9,12 +9,12 @@ You can safely delete this README.md file, or change it for your own project. Pl
 ## Credits
 
 ### Content
-Textual content for Mindfulness sourced from 
-Textual content for Foundations of minfulness was sourced from https://www.habitsforwellbeing.com/the-four-foundations-of-mindfulness/
-Textual content for booking session headings sourced from positivepsychology.com
-The font was sourced from Google Fonts.
-Balsamiq was used to create the wireframes.
+- Textual content for Mindfulness sourced from 
+- Textual content for Foundations of minfulness was sourced from https://www.habitsforwellbeing.com/the-four-foundations-of-mindfulness/
+- Textual content for booking session headings sourced from positivepsychology.com
+- The font was sourced from Google Fonts.
+- Balsamiq was used to create the wireframes.
 ### Media
-The hero image photo was sourced from coreevolution.de.
-Sunlight through plant leaves photo was sourced from britannica.com on Pinterest.
-Photos were cropped using MS Paint.
+- The hero image photo was sourced from coreevolution.de.
+- Sunlight through plant leaves photo was sourced from britannica.com on Pinterest.
+- Photos were cropped using MS Paint.
