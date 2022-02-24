@@ -264,3 +264,14 @@ hr {
     /*width: 20%; */
     background: url("../images/sun-plant.jpg") no-repeat center center;
 }
+
+/* booking times */
+
+#times {
+    background-image: url("../images/sun-plant.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
