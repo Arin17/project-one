@@ -17,7 +17,7 @@ You can safely delete this README.md file, or change it for your own project. Pl
 ### Media
 - The hero image photo was sourced from coreevolution.de.
 - Sunlight through plant leaves photo was sourced from britannica.com on Pinterest.
-- Past, Present, Future, mindfulness image sourced from Elsevier.com
+- Mindfulness-image-by-Doug-Neill sourced from Elsevier.com
 - Developing mindfulness photo sourced from https://www.prim-ed.ie/blog/post/developing-mindfulness--mindful-listening/
 - The-Art-of-Breathing photo sourced from http://franticworld.com/free-meditations-from-mindfulness/
 - Benefits-of-mindfulness-for-kids photo sourced from https://www.verywellfamily.com/benefits-of-mindfulness-for-kids-4769017
