@@ -18,4 +18,5 @@ You can safely delete this README.md file, or change it for your own project. Pl
 - The hero image photo was sourced from coreevolution.de.
 - Sunlight through plant leaves photo was sourced from britannica.com on Pinterest.
 - Photos were cropped using MS Paint.
+- Icons were sourced from Font Awesome.
 
