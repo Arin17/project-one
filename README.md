@@ -17,6 +17,16 @@ You can safely delete this README.md file, or change it for your own project. Pl
 ### Media
 - The hero image photo was sourced from coreevolution.de.
 - Sunlight through plant leaves photo was sourced from britannica.com on Pinterest.
+- Past, Present, Future, mindfulness image sourced from Elsevier.com
+- Developing mindfulness photo sourced from https://www.prim-ed.ie/blog/post/developing-mindfulness--mindful-listening/
+- The-Art-of-Breathing photo sourced from http://franticworld.com/free-meditations-from-mindfulness/
+- Benefits-of-mindfulness-for-kids photo sourced from https://www.verywellfamily.com/benefits-of-mindfulness-for-kids-4769017
+- Tips-For-Teaching-Mindfulness-In-School photo sourced from https://www.teachthought.com/pedagogy/teaching-mindfulness-any-grade/
+- Mind-Full-or-Mindful photo sourced from https://management30.com/blog/a-guide-to-mindfulness-at-work/
+- MindfulnessWordCloud photo sourced from https://www.corehealing.co.uk/mindfulness-2/
+- Cropped-Mindful photo sourced from https://www.foxfields-cit.co.uk/social-and-emotional-learning/mindfulness/
 - Photos were cropped using MS Paint.
 - Icons were sourced from Font Awesome.
+- Daily Calm video sourced from https://www.youtube.com/watch?v=ZToicYcHIOU
+- Train your brain video sourced from https://www.youtube.com/watch?v=TLKxdTmk-zc
 

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Ubuntu&display=swap');
 
+/* fonts 
+for paragraphs: font-family: 'Nunito', sans-serif;
+for headings: font-family: 'Ubuntu', sans-serif; */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,9 +16,6 @@ body {
     color: #3a3a3a;
    /* list-style-type: none; /* get rid of bullet points, apply globally, didn't work */
 }
-/* fonts 
-for paragraphs: font-family: 'Nunito', sans-serif;
-for headings: font-family: 'Ubuntu', sans-serif; */
 
 /*headings and logo*/
 h1, h2 {
@@ -311,4 +312,17 @@ footer {
     margin: 1%; /* to separate the icons */
     padding: 5%; /* to separate the icons */
     color: #3a3a3a;
+}
+
+/* techniques */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
 }
