@@ -1,79 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 50%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
-}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Mindfulness and Wellbeing website">
+    <meta name="keywords" content="Mind, mindfulness, wellbeing, relaxation, Dublin, Ireland">
 
-.active, .accordion:hover {
-  background-color: #ccc; 
-}
+    <link rel="stylesheet" href="assets/css/style.css">
 
-.panel {
-  padding: 0 18px;
-  display: none;
-  background-color: white;
-  overflow: hidden;
-  width: 45%;
-}
-</style>
+    <title>Mindfulness and Wellbeing</title>
 </head>
 <body>
-
-<h2>Accordion</h2>
-
-<button class="accordion">What is Mindfulness</button>
-<div class="panel">
-    <p>Mindfulness is a type of meditation in which you focus on being intensely aware of what you're sensing and 
-        feeling in the moment, without interpretation or judgment. Practicing mindfulness involves breathing methods, 
-        guided imagery, and other practices to relax the body and mind and help reduce stress.
-    </p>
-    <p>Spending too much time planning, problem-solving, daydreaming, or thinking negative or random thoughts 
-        can be draining. It can also make you more likely to experience stress, anxiety and symptoms of depression.  
-        Practicing mindfulness exercises can help you direct your attention away from this kind of thinking and engage 
-        with the world around you.
-    </p>
-</div>
-
-<button class="accordion">Foundations of Mindfulness</button>
-<div class="panel">
-    <ul>         
-        <li>Mindfulness of the body.</li>
-        <br>
-        <li>Mindfulness of feelings.</li> 
-        <br>
-        <li>Mindfulness of mind.</li>            
-        <br>
-    </ul>
-</div>
-
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
-}
-</script>
-
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Mindfulness</h1>
+        </a>
+        <nav>
+            <ul id="nav-menu" class="nav-menu">
+                <!--list items sets in display order to avoid using css to reverse which can be an assessibility issue,
+                include this in readme.md  related to 'ffwing notes in css'-->
+                <li>
+                    <a href="../assets/mags/cover-mag.PNG" target="_blank">Online Magazine</a> <!-- opens in a new tab -->
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+                <li>
+                    <a href="book.html">Bookings</a>
+                </li>
+                <li>
+                    <a href="tech.html" class="active">Techniques</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+       
+    <footer>
+        Social media links
+                
+        <ul class="social-networks">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener" 
+                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i>fb</a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i>tweet</a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i>ytube</a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i>insta</a>
+            </li>
+        </ul>
+    </footer>
+        
 </body>
 </html>
