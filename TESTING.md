@@ -7,13 +7,10 @@ This is the Code Institute student template for Gitpod. We have preinstalled all
 You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
 ## Known Bugs
+* ### Resolved
 
-### Resolved
-Bugs related to fonts became known fonts became known when the icons code snippet copied from Font Awesome were not showing the icons on the rendered webpage.
+    * Bugs related to fonts became known when the icons code snippet copied from Font Awesome were not showing the icons on the rendered webpage.
 
-add img here
-
-Fixed by....
-
-
-
+    * Global
+    ![Font Awesome script](assets/readme-images/footer-font-test.PNG)
+    This was fixed by adding the required Font Awesome script during development.
