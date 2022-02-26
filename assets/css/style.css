@@ -144,6 +144,10 @@ h1, h2 {
     margin-bottom: 10px;
 }
 
+.what-is-heading h3, .foundation-heading h3 {
+    text-decoration: underline;
+    }
+
 /* using tabbed layout, this is for the container div 
 #left-tab {
     padding-top: 10px;
@@ -396,5 +400,16 @@ footer {
     .what-is-heading p, .foundation-heading p {
     text-align: center;
     padding: 0 20px;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+/* For small screen sizes 800px and below */
+@media screen and (max-width: 800px) { /* use min-width to introduce mobile first dev method */
+    #photos {
+        column-count: 2;
     }
 }
