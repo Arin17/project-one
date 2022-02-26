@@ -60,7 +60,7 @@ h1, h2 {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a; /* visual clue for user to know the page they are currently on */ 
+    border-bottom: 1px solid lightblue; /* visual clue for user to know the page they are currently on */ 
 }
 
 /* hero image and cover text */
@@ -141,7 +141,7 @@ h1, h2 {
 #foundation {
     margin-left: 250px;
     margin-right: 250px;
-    margin-top: 50px;
+    margin-bottom: 10px;
 }
 
 /* using tabbed layout, this is for the container div 
@@ -232,8 +232,9 @@ hr {
     line-height: 20px;
 }   */
 
+/* might take this out -- ACCORDION 
 /* Style the left button that are used to open and close the accordion panel, if splitting horizontally */
-/* Style the buttons that are used to open and close the accordion panel */
+/* Style the buttons that are used to open and close the accordion panel 
 .accordion {
     background-color: #eee;
     color: #444;
@@ -245,10 +246,11 @@ hr {
     outline: none;
     font-size: 15px;
     transition: 0.4s;
+    display: inline; /* to align horizontally
   }
   
   .active, .accordion:hover {
-    background-color: #ccc; 
+    background-color: lightblue; 
   }
   
   .panel {
@@ -257,9 +259,9 @@ hr {
     background-color: white;
     overflow: hidden;
     width: 45%;
-  }
+  } */
 
-  /* img not loading */
+  /* might take out -- img not loading */
   #sun-plant {
     height: fit-content; /* think I need the img to be full-sized on the pg, height of img is 2000px --maybe or not */
     /*width: 20%; */
@@ -286,7 +288,8 @@ hr {
     padding: 30px 0 0 10px;
     text-align: center;
     border: 2px solid white; /* border around divs so that background image appears broken up into sections */
-    box-sizing: border-box; /* allows border width to be included in the total size of the element, i.e. 25% width includes the border*/
+    box-sizing: border-box; /* allows border width to be included in the total size of the element, i.e. 25% width 
+    includes the border*/
 }
 
 #times h2 {
@@ -362,5 +365,29 @@ footer {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+    }
+ 
+    #cover-text {
+    right: 50px;
+    }
+
+    #about, #hero-outer {
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    }
+
+    .what-is-heading, .foundation-heading {
+    width: inherit;
+    }
+ 
+    .what-is-heading h3, .foundation-heading h3 {
+    width: 100%;
+    text-align: center;
+    }
+
+    .what-is-heading p, .foundation-heading p {
+    text-align: center;
+    padding: 0 20px;
     }
 }
