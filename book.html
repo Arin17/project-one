@@ -38,7 +38,33 @@
             </ul>
         </nav>
     </header>
-    
+    <section id="form-section">
+        <!-- <div class="booking-form-container">          -->
+                        
+                <form method="POST" action="https://formdump.codeinstitute.net/" class="booking-form">
+                    <h3>Mindfulness is a skill, come and learn from the experts</h3>
+                    <label for="fname">First Name</label>
+                    <input class="text-input" id="fname" name="first_name" type="text" required>
+                    
+                    <label for="lname">Last Name</label>
+                    <input class="text-input" id="lname" name="last_name" type="text" required>
+                    
+                    <label for="email">Email Address</label>
+                    <input class="text-input" type="email" id="email" name="email_address" required>
+                    
+                    <label for="road">Emotional Intelligence</label>
+                    <input type="radio" id="emotion" name="booking_preference" value="emotion" required>
+                    <label for="trail">Maximise strengths</label>
+                    <input type="radio" id="maximise" name="booking_preference" value="maximise" required>
+                    <label for="both">Resilience</label>
+                    <input type="radio" id="resilience" name="booking_preference" value="resilience" required>
+                    <label for="both">Valued Living</label>
+                    <input type="radio" id="valued" name="booking_preference" value="valued" required>
+                    
+                    <input class="book-button" type="submit" value="Let's Get You Booked In!">
+                </form>            
+        <!-- </div> -->
+    </section>
     <footer>
         <ul class="social-networks">
             <li>
