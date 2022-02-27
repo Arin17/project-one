@@ -14,6 +14,7 @@ You can safely delete this README.md file, or change it for your own project. Pl
 - Textual content for booking session headings sourced from positivepsychology.com
 - The font was sourced from Google Fonts.
 - Balsamiq was used to create the wireframes.
+- Curved video section tutorial from https://www.youtube.com/watch?v=mqzSY6Qy0yk
 ### Media
 - The hero image photo was sourced from coreevolution.de.
 - Sunlight through plant leaves photo was sourced from britannica.com on Pinterest.
