@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Ubuntu&display=swap');
 
 /* fonts 
-for paragraphs: font-family: 'Nunito', sans-serif;
-for headings: font-family: 'Ubuntu', sans-serif; */
+headings: font-family: 'Ubuntu', sans-serif;
+paragraphs: font-family: 'Nunito', sans-serif;
+*/
 
 * {
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box; /* allows border width to be included in the total size of the element, e.g. 25% width 
+    includes the border */
 }
 
 body {
@@ -60,12 +63,12 @@ h1, h2 {
 }
 
 .active {
-    border-bottom: 1px solid lightblue; /* visual clue for user to know the page they are currently on */ 
+    border-bottom: 1px solid #3981BF; /* visual clue for user to know the page they are currently on */ 
 }
 
 /* hero image and cover text */
 
-#hero-outer { /* creates space btw header and hero img*/
+#hero-outer { /* creates space btw header and hero img on index pg*/
     height: 600px;
     width: 100%;
     overflow: hidden; /* hides the size increase whilst doing zoom animation */
@@ -119,6 +122,73 @@ h1, h2 {
 
     position: absolute; /* to fix it in place relative to the container */
 }
+
+/* Videos and photos section */
+
+#videos { /* creates space btw header and video section on techniques pg*/
+    /* height: 500px; */
+    width: 100%;
+    height: 100vh;
+    overflow: hidden; /*  hides the size increase whilst doing zoom animation */
+    position: relative; /* keeps div position absolute */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#videos::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100vh;
+    height: 100vh;
+    background: #C2E0F2;
+    border-radius: 50%;
+    transform-origin: bottom;
+    transform: translateX(-50%) scale(4);
+
+}
+
+.video-container {
+    position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    text-align: center;
+
+}
+
+.video-container h3 {
+    font-size: 2em;
+    color: whit
+}
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
+
+/* horizontal line, to separate videos and images */
+hr {
+    border: 10px groove #C2E0F2;
+    width: 100%
+}  
+/* 
+/* from stack overflow
+.video-container {
+    width: 50%;
+    height: 350px;
+    border: solid 10px #C2E0F2;
+    /* border-color: transparent transparent #000 transparent;
+    border-radius: 0 0 240px 50%/60px;
+  }  */
 
 /* about section */
 #about {
@@ -175,12 +245,6 @@ h1, h2 {
 ul {
     list-style-type: none; /* move this to body selector, did but not globally applied */
 }
-
-/* horizontal line under heading, need to alighn with text tried span
-hr {
-    border: 1px solid #3a3a3a;
-    width: 50%
-}  */
 
 /*below seems to mess up layout
 /* style buttons and tab content, code from W3Schoools
@@ -264,13 +328,13 @@ hr {
     overflow: hidden;
     width: 45%;
   } */
-
-  /* might take out -- img not loading */
+/* 
+  /* might take out -- img not loading 
   #sun-plant {
-    height: fit-content; /* think I need the img to be full-sized on the pg, height of img is 2000px --maybe or not */
-    /*width: 20%; */
+    height: fit-content; /* think I need the img to be full-sized on the pg, height of img is 2000px --maybe or not
+    /*width: 20%; 
     background: url("../images/sun-plant.jpg") no-repeat center center;
-}
+} */
 
 /* booking times */
 
@@ -292,8 +356,6 @@ hr {
     padding: 30px 0 0 10px;
     text-align: center;
     border: 2px solid white; /* border around divs so that background image appears broken up into sections */
-    box-sizing: border-box; /* allows border width to be included in the total size of the element, i.e. 25% width 
-    includes the border*/
 }
 
 #times h2 {
@@ -303,7 +365,9 @@ hr {
 /* footer */
 
 footer {
-    height: 150px;
+    height: 200px;
+    /*min-height: 100vh;  stick footer to bottom of the pg */
+    background-color: #94CEF2;
 }
 
 .social-networks {
@@ -318,10 +382,11 @@ footer {
     font-size: 160%; /* make icons standout in footer area */
     margin: 1%; /* to separate the icons */
     padding: 5%; /* to separate the icons */
+    margin-top: 0px;
     color: #3a3a3a;
 }
 
-/* techniques */
+/* techniques
 
 #photos {
     clear: both;
@@ -332,7 +397,7 @@ footer {
 
 #photos > img {
     width: 100%;
-}
+} */
 
 /* Media queries */
 
