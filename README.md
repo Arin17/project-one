@@ -107,7 +107,7 @@ Dublin Minds website is designed to be welcoming, intuitive and user friendly. I
 
 * ### Form Confirmation
     * Both the submit buttons on the bookings page, labelled 'Let's Get You Booked In' and on the contact-us page, labelled 'Send', open the response.html page. Form validation on the forms are solely intended to prevent the user from entering incorrect information.
-    * A direct link back to the contact page is prodvided as well as the normal navigation menu links in the header and footer.
+    * A direct link back to the home page is prodvided as well as the normal navigation menu links in the header and footer.
 
 ![Form confirmation image](assets/readme-images/response-pg.PNG)
 [Back to top](<#contents>)
@@ -120,7 +120,7 @@ Dublin Minds website is designed to be welcoming, intuitive and user friendly. I
 
 ## Future Features 
 
-* A 'subscription' section where site users can subscribe to Dublin Minds magazine publication and also have access to past issued and archived magazines.
+* A 'subscription' section where site users can subscribe to Dublin Minds' magazine publication and also have access to past issued and archived magazines.
 
 [Back to top](<#contents>)
 
@@ -157,10 +157,12 @@ The live link to the Github repository can be found here - https://arin17.github
 # Credits
 
 ### Content
-- Textual content for Mindfulness sourced from 
+- Textual content for Mindfulness sourced from www.mayoclinic.org
 - Textual content for Foundations of minfulness was sourced from https://www.habitsforwellbeing.com/the-four-foundations-of-mindfulness/
 - Textual content for booking session headings sourced from positivepsychology.com
 - The font was sourced from Google Fonts.
+- Icons were sourced from https://fontawesome.com/
+- Colour Palette was created using https://color.adobe.com/create/color-wheel
 - Balsamiq was used to create the wireframes.
 - Curved video section tutorial from https://www.youtube.com/watch?v=mqzSY6Qy0yk
 

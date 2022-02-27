@@ -9,12 +9,12 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     
-    <title>Contact Us</title>
+    <title>Dublin Minds :: Book An Expert</title>
 </head>
 <body>
     <header>
         <a href="index.html">
-            <h1 id="logo">Mindfulness</h1>
+            <h1 id="logo">Dublin Minds</h1>
         </a>
         <nav>
             <ul id="nav-menu" class="nav-menu">
@@ -38,27 +38,29 @@
             </ul>
         </nav>
     </header>
-    <section id="form-section">
-        <!-- <div class="booking-form-container">          -->
+    <section id="booking-form-section">
+        <div id="experts">
+            <h3>Mindfulness is a skill, come and learn from the experts!</h3>
+        </div>   
                         
-                <form method="POST" action="https://formdump.codeinstitute.net/" class="booking-form">
-                    <h3>Mindfulness is a skill, come and learn from the experts</h3>
-                    <label for="fname">First Name</label>
+                <form method="get" action="response.html" class="booking-form">
+                    
+                    <label for="fname">First Name *</label>
                     <input class="text-input" id="fname" name="first_name" type="text" required>
                     
-                    <label for="lname">Last Name</label>
+                    <label for="lname">Last Name *</label>
                     <input class="text-input" id="lname" name="last_name" type="text" required>
                     
-                    <label for="email">Email Address</label>
+                    <label for="email">Email Address *</label>
                     <input class="text-input" type="email" id="email" name="email_address" required>
                     
-                    <label for="road">Emotional Intelligence</label>
+                    <label for="emotion">Emotional Intelligence</label>
                     <input type="radio" id="emotion" name="booking_preference" value="emotion" required>
-                    <label for="trail">Maximise strengths</label>
+                    <label for="maximise">Maximise strengths</label>
                     <input type="radio" id="maximise" name="booking_preference" value="maximise" required>
-                    <label for="both">Resilience</label>
+                    <label for="resilience">Resilience</label>
                     <input type="radio" id="resilience" name="booking_preference" value="resilience" required>
-                    <label for="both">Valued Living</label>
+                    <label for="valued">Valued Living</label>
                     <input type="radio" id="valued" name="booking_preference" value="valued" required>
                     
                     <input class="book-button" type="submit" value="Let's Get You Booked In!">

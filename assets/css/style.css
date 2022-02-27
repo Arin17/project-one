@@ -206,8 +206,8 @@ hr {
 }
 
 #what-is {
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-bottom: 50px;
 }
 
@@ -378,7 +378,7 @@ ul {
 
 #booking-form-section {
     clear: left;
-    height: 500px;
+    height: 700px;
 }
 
 .booking-form {
