@@ -18,6 +18,7 @@ body {
     font-weight: 300;
     color: #3a3a3a;
    /* list-style-type: none; /* get rid of bullet points, apply globally, didn't work */
+    min-height: 100vh; /* ensure footer sticks at the bottom */
 }
 
 /*headings and logo*/
@@ -128,7 +129,7 @@ h1, h2 {
 #videos { /* creates space btw header and video section on techniques pg*/
     /* height: 500px; */
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     overflow: hidden; /*  hides the size increase whilst doing zoom animation */
     position: relative; /* keeps div position absolute */
     display: flex;
@@ -142,8 +143,8 @@ h1, h2 {
     position: absolute;
     bottom: 0;
     left: 50%;
-    width: 100vh;
-    height: 100vh;
+    width: 75vh;
+    height: 75vh;
     background: #C2E0F2;
     border-radius: 50%;
     transform-origin: bottom;
@@ -216,7 +217,7 @@ hr {
 
 .what-is-heading h3, .foundation-heading h3 {
     text-decoration: underline;
-    }
+}
 
 /* using tabbed layout, this is for the container div 
 #left-tab {
@@ -368,6 +369,8 @@ footer {
     height: 200px;
     /*min-height: 100vh;  stick footer to bottom of the pg */
     background-color: #94CEF2;
+    position: sticky; /* stick footer to bottom of the pg */
+    top: 100%
 }
 
 .social-networks {
