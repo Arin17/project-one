@@ -38,11 +38,11 @@ The CSS validator results are below:
 | Images | pass    | pass      | pass     | pass | pass     | pass            | pass            |
 | Links  | pass    | pass      | pass     | pass | pass     | pass            | pass            |
 
-Note: On wide display types the contents of the site are restricted in width to 2000px. This helps the UX by not spreading the content too wide on the extra wide screens.
+Note: On wide display types the contents of the site is restricted in width to 2000px. This helps the UX by not spreading the content too wide on extra wide screens.
 
 ## Browser Compatibility
 
-Wawas Woods site was tested on the following browsers with no visible issues for the user. 
+Dublin Minds website was tested on the following browsers with no visible issues for the user. 
 Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Appearance, functionality and responsiveness were consistent throughout for a range of device sizes and browsers.
 
 ## Known Bugs
@@ -54,4 +54,6 @@ Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Appearance, functiona
     ![Font Awesome script](assets/readme-images/footer-font-test.PNG)
     This was fixed by adding the required Font Awesome script during development.
 
-    * An assumed oversight became known with a horizontal line showing on the index page, but which did not show up wduring an investigation using [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/), this was fixed by 
+    * An assumed oversight became known with a horizontal line showing on the index page, but which did not show up wduring an investigation using [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/), this was fixed by removing hr syntax from css file.
+
+    ![Horizontal Rule bug](assets/readme-images/hr-test.PNG)
