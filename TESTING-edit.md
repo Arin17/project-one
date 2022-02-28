@@ -6,23 +6,23 @@ The HTML validator results for each page are below:
 
 * Home page
 
-![W3C Validator test result](assets/readme-images/w3ctesting.png)
+![W3C Validator test result](assets/readme-images/w3HTML-Index-test.PNG)
 
 * Techniques page
 
-![W3C Validator test result](assets/readme-images/w3ctesting.png)
+![W3C Validator test result](assets/readme-images/)
 
 * Bookings page
 
-![W3C Validator test result](assets/readme-images/w3ctesting.png)
+![W3C Validator test result](assets/readme-images/w3HTML-book-test.PNG)
 
 * Contact Us page
 
-![W3C Validator test result](assets/readme-images/w3ctesting.png)
+![W3C Validator test result](assets/readme-images/w3HTML-contact-test.PNG)
 
 * Form Response page
 
-![W3C Validator test result](assets/readme-images/w3ctesting.png)
+![W3C Validator test result](assets/readme-images/w3HTML-response-test.PNG)
 
 The CSS validator results are below:
 
