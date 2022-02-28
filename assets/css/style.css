@@ -135,7 +135,7 @@ h1, h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 20px;
 }
 
 #videos::before {
@@ -143,8 +143,8 @@ h1, h2 {
     position: absolute;
     bottom: 0;
     left: 50%;
-    width: 75vh;
-    height: 75vh;
+    width: 50vh;
+    height: 50vh;
     background: #C2E0F2;
     border-radius: 50%;
     transform-origin: bottom;
@@ -162,7 +162,6 @@ h1, h2 {
 
 .video-container h3 {
     font-size: 2em;
-    color: whit
 }
 
 #photos {
@@ -170,28 +169,22 @@ h1, h2 {
     line-height: 0;
     column-count: 4;
     column-gap: 0;
+    margin-top: 2%;
+}
+
+#photos-heading {
+    clear: right;
+    position: relative;
+    z-index: -1;
+    max-width: 1000px;
+    /* text-align: center; */
+    font-size: 2em;
+    margin: 0px;
 }
 
 #photos > img {
     width: 100%;
 }
-
-/* 
-/* horizontal line, to separate videos and images
-hr {
-    border: 10px groove #C2E0F2;
-    width: 100%
-}   */
-
-/* 
-/* from stack overflow
-.video-container {
-    width: 50%;
-    height: 350px;
-    border: solid 10px #C2E0F2;
-    /* border-color: transparent transparent #000 transparent;
-    border-radius: 0 0 240px 50%/60px;
-  }  */
 
 /* about section */
 #about {
