@@ -26,7 +26,7 @@ The HTML validator results for each page are below:
 
 The CSS validator results are below:
 
-![CSS Validator test result](assets/readme-images/csstesting.png)
+![CSS Validator test result](assets/readme-images/w3CSS-test.PNG)
 
 ## Responsiveness Test
 
