@@ -8,19 +8,19 @@ The HTML validator results for each page are below:
 
 ![W3C Validator test result](assets/readme-images/w3ctesting.png)
 
-* Projects page
+* Techniques page
 
 ![W3C Validator test result](assets/readme-images/w3ctesting.png)
 
-* Inspiration page
+* Bookings page
 
 ![W3C Validator test result](assets/readme-images/w3ctesting.png)
 
-* Contact page
+* Contact Us page
 
 ![W3C Validator test result](assets/readme-images/w3ctesting.png)
 
-* Form valiadtion page
+* Form Response page
 
 ![W3C Validator test result](assets/readme-images/w3ctesting.png)
 
@@ -42,11 +42,7 @@ Note: On wide display types the contents of the site is restricted in width to 2
 
 ## Browser Compatibility
 
-<<<<<<< HEAD
 Dublin Minds website was tested on the following browsers with no visible issues for the user. 
-=======
-Dublin Minds site was tested on the following browsers with no visible issues for the user. 
->>>>>>> e5b47800a654e67615000d39606f7687ba17ce9f
 Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Appearance, functionality and responsiveness were consistent throughout for a range of device sizes and browsers.
 
 ## Known Bugs
@@ -58,10 +54,6 @@ Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Appearance, functiona
     ![Font Awesome script](assets/readme-images/footer-font-test.PNG)
     This was fixed by adding the required Font Awesome script during development.
 
-<<<<<<< HEAD
-    * An assumed oversight became known with a horizontal line showing on the index page, but which did not show up wduring an investigation using [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/), this was fixed by removing hr syntax from css file.
+    * An assumed oversight became known with a horizontal line showing on the index page, but which did not show up during an investigation using [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/), this was fixed by removing hr syntax from css file.
 
     ![Horizontal Rule bug](assets/readme-images/hr-test.PNG)
-=======
-    * An assumed oversight became known with a horizontal line showing on the index page, but which did not show up wduring an investigation using [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/), this was fixed by 
->>>>>>> e5b47800a654e67615000d39606f7687ba17ce9f
